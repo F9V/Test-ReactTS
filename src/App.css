@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
+.app_menu
+{
+  float: right;
+}
+
+
+.main_menu .ant-menu-submenu
+{
+  padding: 0px !important;
+}
+
+
+.main_menu .ant-menu-submenu .ant-menu-submenu-title
+{
+  padding-left: 10px;
+  padding-right: 10px;
+}
