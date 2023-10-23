@@ -62,9 +62,17 @@ const IPageContacts: PageInfo = {
     p_component: PagContacts
 };
 
+const IPageGenerateT: PageInfo = {
+    p_number: 1,
+    p_section: "App",
+    p_name: "Translation tool",
+    p_component: PagGenerateT
+};
+
 
 AllPages.push(IPageHome);
 AllPages.push(IPageAbout);
 AllPages.push(IPageContacts);
+AllPages.push(IPageGenerateT);
 
 export {MainPages, SubPages, AllPages, PagesComponents};

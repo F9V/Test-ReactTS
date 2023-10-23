@@ -4,9 +4,9 @@ const PagContacts: React.FC = () => {
     return (
 
         <div>
-        <h1>Questa è la mia pagina</h1>
+        <h1>Contacts</h1>
         
-        <div>asd</div>
+        <div>No contacts here, privacy first</div>
         </div>
     )
 }
