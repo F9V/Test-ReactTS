@@ -55,7 +55,7 @@ const Navbar: React.FC = () => {
   return (
     <Layout>
       <Header className='main_menu' style={{ display: 'block', alignItems: 'center' }}>
-        <div className="demo-logo" />
+        <div className="demo-logo">Francesco's App</div>
         <Menu theme="dark" className='app_menu' mode="horizontal" defaultSelectedKeys={['2']} items={items1} />
       </Header>
       <Layout>
